@@ -44,7 +44,9 @@ public class Passes_Checker {
 
     public void check_card(Ski_pass pass){
         for (int i = 0; i < ski_passes_list.length; i++){
-            if ()
+            if (pass.identifier == ski_passes_list[i].identifier){
+
+            }
         }
     }
 }
